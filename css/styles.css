@@ -1,9 +1,6 @@
-html{
-    background-color: #1e1e1e;
-}
 .main{
     color:#FFFFFF;
-    /* background-color: #1E1E1E; */
+    background-color: #1E1E1E;
     height: 600px;
     width: 600px;
     margin: 16px auto;
@@ -16,7 +13,6 @@ html{
 .links{
     color: #ffba08;
     margin: 16px auto;
-    /* border: 1px solid white; */
 }
 
 .linksCard{
@@ -29,14 +25,14 @@ html{
     color: #ffffff;
 }
 
-.ingredientsCard, .stepsCard, .description{
+.card{
     border: 5px solid #333333;
     background: #2a2a2a;
     font-size: 18px;
     padding: 10px;
 }
 
-.ingredientsCard .header, .stepsCard .header, .description .header{
+.card .header{
     font-size: 24px;
     color: #ffba08;
     text-align: center;
@@ -44,4 +40,11 @@ html{
 
 li{
     margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
 }
