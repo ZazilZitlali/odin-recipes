@@ -1,6 +1,9 @@
+html{
+    background-color: #1e1e1e;
+}
 .main{
     color:#FFFFFF;
-    background-color: #1E1E1E;
+    /* background-color: #1E1E1E; */
     height: 600px;
     width: 600px;
     margin: 16px auto;
