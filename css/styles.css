@@ -1,9 +1,5 @@
-body {
-    background-color: black;
-    color: white;
-}
-
 .main{
+    color:#FFFFFF;
     background-color: #1E1E1E;
     height: 600px;
     width: 600px;
