@@ -2,3 +2,47 @@ body {
     background-color: black;
     color: white;
 }
+
+.main{
+    background-color: #1E1E1E;
+    height: 600px;
+    width: 600px;
+    margin: 16px auto;
+}
+
+:visited{
+    color: #fca311;
+}
+
+.links{
+    color: #ffba08;
+    margin: 16px auto;
+    /* border: 1px solid white; */
+}
+
+.linksCard{
+    border: 5px solid #333333;
+    background: #2a2a2a;
+    font-size: 18px;
+}
+
+.title{
+    color: #ffffff;
+}
+
+.ingredientsCard, .stepsCard, .description{
+    border: 5px solid #333333;
+    background: #2a2a2a;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.ingredientsCard .header, .stepsCard .header, .description .header{
+    font-size: 24px;
+    color: #ffba08;
+    text-align: center;
+}
+
+li{
+    margin-bottom: 10px;
+}
